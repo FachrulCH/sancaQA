@@ -5,7 +5,7 @@ import logging
 class APIClient(requests.Session):
     def __init__(self):
         super(APIClient, self).__init__()
-        self.hooks['response'].append(self._logging())
+        self.hooks['response'].append(self._logging)
 
     @staticmethod
     def _logging(response: requests.Response, *args, **kwargs):
