@@ -2,7 +2,7 @@ import json
 
 import requests
 
-from library.mobile.configs import LOGGER
+from sancaqa.mobile.configs import LOGGER
 
 
 def pretty_print_request(request):

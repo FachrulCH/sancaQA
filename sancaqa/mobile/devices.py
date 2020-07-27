@@ -1,4 +1,4 @@
-from library.mobile import configs, parallel, shell
+from sancaqa.mobile import configs, parallel, shell
 
 
 def get_adb_devices():

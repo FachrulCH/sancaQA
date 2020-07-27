@@ -4,10 +4,10 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-from library.mobile import configs, ui
-from library.mobile.configs import LOGGER
-from library.mobile.drivers import get_driver
-from library.mobile.ui import Element, Elements
+from sancaqa.mobile import configs, ui
+from sancaqa.mobile.configs import LOGGER
+from sancaqa.mobile.drivers import get_driver
+from sancaqa.mobile.ui import Element, Elements
 
 
 def _selector_by_text(text: str, case_sensitive=True):

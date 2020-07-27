@@ -4,9 +4,9 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-from library.mobile import configs
-from library.mobile.configs import IS_ANDROID
-from library.mobile.drivers import get_driver
+from sancaqa.mobile import configs
+from sancaqa.mobile.configs import IS_ANDROID
+from sancaqa.mobile.drivers import get_driver
 
 
 class MobileElementPatch(WebElement):

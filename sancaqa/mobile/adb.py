@@ -1,6 +1,6 @@
-from library.mobile import configs, shell
-from library.mobile.devices import get_device_id
-from library.mobile.parallel import IS_PARALLEL
+from sancaqa.mobile import configs, shell
+from sancaqa.mobile.devices import get_device_id
+from sancaqa.mobile.parallel import IS_PARALLEL
 
 ADB = "adb {}"
 if IS_PARALLEL:

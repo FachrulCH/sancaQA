@@ -3,7 +3,7 @@ import os
 
 from dotenv import load_dotenv
 
-from library.mobile.devices import android_udid
+from sancaqa.mobile.devices import android_udid
 
 load_dotenv()
 LOGGER = logging.getLogger()

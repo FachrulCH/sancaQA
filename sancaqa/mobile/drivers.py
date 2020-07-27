@@ -1,7 +1,7 @@
 from appium import webdriver
 
-from library.mobile import configs, parallel
-from library.mobile.devices import get_device_id
+from sancaqa.mobile import configs, parallel
+from sancaqa.mobile.devices import get_device_id
 
 
 class SingletonFactory(object):
