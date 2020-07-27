@@ -1,4 +1,4 @@
-from library.api.api_client import APIClient
+from sancaqa.api.api_client import APIClient
 
 
 class PeopleSwapi(APIClient):

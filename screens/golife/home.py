@@ -1,4 +1,4 @@
-from library.mobile.ui import Element, Elements
+from sancaqa.mobile.ui import Element, Elements
 
 SERVICE_GOMASSAGE = Element(android_by=("id", "viewVertical1"), wait_time=5)
 SERVICE_GOCLEAN = Element(android_by=("id", "viewVertical2"), wait_time=5)

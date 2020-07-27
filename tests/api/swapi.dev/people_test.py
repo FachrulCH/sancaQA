@@ -1,6 +1,6 @@
 import pytest
 
-from library.api.swapi_clients.people_client import PeopleSwapi
+from tests.api.swapi_clients.people_client import PeopleSwapi
 
 
 @pytest.fixture

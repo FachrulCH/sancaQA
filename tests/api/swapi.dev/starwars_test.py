@@ -1,5 +1,5 @@
-from library.api import helper
-from library.api.helper import API
+from sancaqa.api import helper
+from sancaqa.api.helper import API
 
 
 def test_get_people():

@@ -1,4 +1,4 @@
-from library.mobile.drivers import get_driver
+from sancaqa.mobile.drivers import get_driver
 
 
 class Screens:

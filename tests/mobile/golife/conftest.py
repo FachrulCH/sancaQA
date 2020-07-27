@@ -1,9 +1,9 @@
 import pytest
 
-from library.mobile import configs
-from library.mobile.configs import LOGGER
-from library.mobile.devices import get_device_id
-from library.mobile.drivers import create_appium_session, quit_driver
+from sancaqa.mobile import configs
+from sancaqa.mobile.configs import LOGGER
+from sancaqa.mobile.devices import get_device_id
+from sancaqa.mobile.drivers import create_appium_session, quit_driver
 
 GOLIFE_CAPS = None
 

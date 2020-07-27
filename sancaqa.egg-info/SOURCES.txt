@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+sancaqa/__init__.py
+sancaqa.egg-info/PKG-INFO
+sancaqa.egg-info/SOURCES.txt
+sancaqa.egg-info/dependency_links.txt
+sancaqa.egg-info/not-zip-safe
+sancaqa.egg-info/top_level.txt
